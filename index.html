@@ -13,6 +13,9 @@
 	<link rel="stylesheet" href="./main.built.css" type="text/css" />
 	<link rel="stylesheet" href="./overview.built.css" type="text/css" />
 	<link rel="stylesheet" href="./style.css" type="text/css" />
+	<link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+	<link rel="stylesheet" href="path/to/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
 </head>
 
 <body class="page-overview ">
@@ -153,24 +156,20 @@
 			</div>
 			<ul class="ac-gn-list">
 				<li class="ac-gn-item ac-gn-apple">
-					<a class="ac-gn-link ac-gn-link-apple" href="/"  
-						id="ac-gn-firstfocus">
+					<a class="ac-gn-link ac-gn-link-apple" href="/" id="ac-gn-firstfocus">
 						<span class="ac-gn-link-text">Apple</span>
 					</a>
 				</li>
 				<li class="ac-gn-item ac-gn-item-menu ac-gn-store">
-					<a class="ac-gn-link ac-gn-link-store" href=" #"  
-						<span class="ac-gn-link-text">Store</span>
+					<a class="ac-gn-link ac-gn-link-store" href=" #" <span class="ac-gn-link-text">Store</span>
 					</a>
 				</li>
 				<li class="ac-gn-item ac-gn-item-menu ac-gn-mac">
-					<a class="ac-gn-link ac-gn-link-mac" href="/mac/" 
-						<span class="ac-gn-link-text">Mac</span>
+					<a class="ac-gn-link ac-gn-link-mac" href="/mac/" <span class="ac-gn-link-text">Mac</span>
 					</a>
 				</li>
 				<li class="ac-gn-item ac-gn-item-menu ac-gn-ipad">
-					<a class="ac-gn-link ac-gn-link-ipad" href="/ipad/"  
-						<span class="ac-gn-link-text">iPad</span>
+					<a class="ac-gn-link ac-gn-link-ipad" href="/ipad/" <span class="ac-gn-link-text">iPad</span>
 					</a>
 				</li>
 				<li class="ac-gn-item ac-gn-item-menu ac-gn-iphone">
@@ -199,14 +198,12 @@
 					</a>
 				</li>
 				<li class="ac-gn-item ac-gn-item-menu ac-gn-accessories">
-					<a class="ac-gn-link ac-gn-link-accessories" href="#"
-						data-analytics-title="accessories">
+					<a class="ac-gn-link ac-gn-link-accessories" href="#" data-analytics-title="accessories">
 						<span class="ac-gn-link-text">Accessories</span>
 					</a>
 				</li>
 				<li class="ac-gn-item ac-gn-item-menu ac-gn-support">
-					<a class="ac-gn-link ac-gn-link-support" href="#"
-						data-analytics-title="support">
+					<a class="ac-gn-link ac-gn-link-support" href="#" data-analytics-title="support">
 						<span class="ac-gn-link-text">Support</span>
 					</a>
 				</li>
@@ -216,7 +213,7 @@
 				</li>
 				<li class="ac-gn-item ac-gn-bag" id="ac-gn-bag">
 					<div class="ac-gn-bag-wrapper">
-						<a class="ac-gn-link ac-gn-link-bag" href="# data-analytics-title="bag"
+						<a class="ac-gn-link ac-gn-link-bag" href="# data-analytics-title=" bag"
 							data-analytics-click="bag" aria-label="Shopping Bag"
 							data-string-badge="Shopping Bag with item count : {%BAGITEMCOUNT%}">
 							<span class="ac-gn-link-text">Shopping Bag</span>
@@ -289,7 +286,7 @@
 
 	<input type="checkbox" id="ac-ln-menustate" class="ac-ln-menustate" />
 	<nav id="ac-localnav" class="no-js ac-localnav-scrim
-			" lang="en-US" dir="ltr" data-sticky data-analytics-region="local nav" role="navigation" aria-label="Local">
+			" lang="en-US" dir="ltr" data-sticky role="navigation" aria-label="Local" style="position: relative">
 		<div class="ac-ln-wrapper">
 			<div class="ac-ln-background"></div>
 			<div class="ac-ln-content">
@@ -299,14 +296,7 @@
 					</a>
 				</div>
 				<div class="ac-ln-menu">
-					<a href="#" class="ac-ln-menucta-anchor ac-ln-menucta-anchor-open"
-						id="ac-ln-menustate-open" role="button">
-						<span class="ac-ln-menucta-anchor-label">Local Nav Open Menu</span>
-					</a>
-					<a href="#" class="ac-ln-menucta-anchor ac-ln-menucta-anchor-close" id="ac-ln-menustate-close"
-						role="button">
-						<span class="ac-ln-menucta-anchor-label">Local Nav Close Menu</span>
-					</a>
+
 					<div class="ac-ln-menu-tray">
 						<ul class="ac-ln-menu-items">
 							<li class="ac-ln-menu-item">
@@ -314,43 +304,31 @@
 									aria-current="page">Overview</span>
 							</li>
 							<li class="ac-ln-menu-item">
-								<a href="#" class="ac-ln-menu-link"
-									data-analytics-title="tech specs">Tech Specs</a>
+								<a href="#" class="ac-ln-menu-link" data-analytics-title="tech specs">Tech Specs</a>
 							</li>
 							<li class="ac-ln-menu-item">
-								<a href="#" class="ac-ln-menu-link"
-									data-analytics-title="compare">Compare</a>
+								<a href="#" class="ac-ln-menu-link" data-analytics-title="compare">Compare</a>
 							</li>
 						</ul>
 					</div>
-					<div class="ac-ln-actions">
-						<div class="ac-ln-action ac-ln-action-menucta" aria-hidden="true">
-							<label for="ac-ln-menustate" class="ac-ln-menucta">
-								<span class="ac-ln-menucta-chevron"></span>
-							</label>
-						</div>
-						<div class="ac-ln-action ac-ln-action-button">
-							<a class="ac-ln-button" href="#"
-								data-analytics-title="buy - airpods 3rd gen">Buy <span
-									class="ac-ln-action-product">AirPods (3rd generation)</span></a>
-						</div>
-					</div>
+
 				</div>
 			</div>
 		</div>
 	</nav>
 	<label id="ac-ln-curtain" for="ac-ln-menustate"></label>
 
-	<main id="main" class="main" role="main" data-page-type="overview">
+	<main id="main" class="main" role="main" data-page-type="overview" data-aos="zoom-out-up" data-aos-duration="4000"
+		data-aos-anchor-placement="top-center">
 		<section class="section section-hero background-alt" data-anim-scroll-group="Hero"
-			data-component-list="HeroAirpods" data-analytics-section-engagement="name:hero">
+			data-component-list="HeroAirpods" data-aos="zoom-out-up" data-aos-duration="4000"
+			data-aos-anchor-placement="top-center">
 			<div class="sticky">
 				<div class="overflow-container">
 					<div class="section-content">
-						<div class="copy-wrapper ff-perspective"
-							data-focus-expression='{"expression": "css(--airpod-copy-scroll, a0)", "anchors": [".section-hero"]}'>
-							<h1 class="typography-hero-headline hero-headline ff-perspective">
-								AirPods
+						<div class="copy-wrapper ff-perspective" data-aos="zoom-in-up" data-aos-duration="5300"">
+							<h1 class=" typography-hero-headline hero-headline ff-perspective">
+							AirPods
 							</h1>
 							<p class="typography-hero-intro hero-intro ff-perspective">
 								All-new with Spatial Audio
@@ -359,36 +337,39 @@
 							<source data-empty
 								srcset="data:image/gif;base64,R0lGODlhAQABAHAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
 								media="(min-width:0px)" />
-							<img src="./images/hero_airpods_left__e4mt0u0p25ea_medium_2x.png" onload="__lp(event)" alt>
-							</picture>
+							<div data-aos="" data-aos-duration="5300">
+								<img src=" ./images/hero_airpods_left__e4mt0u0p25ea_medium_2x.png" style="
+								position: absolute;
+								display: block;
+								top: 0;
+								left: -10;	
+								width: 500PX;
+								z-index: -100;						
+								" data-aos="zoom-in-up" data-aos-duration="5300" alt>
+
+							</div>
+							<!-- </picture> -->
 
 							<!-- <picture id="overview-hero-airpods-right-1" class="overview-hero-airpods-right" data-lazy> -->
-							<source data-empty
-								srcset="data:image/gif;base64,R0lGODlhAQABAHAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-								media="(min-width:0px)" />
-							<img src="./images/hero_airpods_right__dtlz95zz9ryq_medium_2x.png" onload="__lp(event)" alt>
-							</picture>
+							<source />
+							<img src="./images/hero_airpods_right__dtlz95zz9ryq_medium_2x.png" style="
+							position: absolute;
+							display: block;
+							bottom: 10;
+							right:0;	
+							width: 500PX;						
+							" data-aos="zoom-in-up" data-aos-duration="5300" alt>
+							<!-- </picture> -->
 
 						</div>
 						<ul class="links-inline hero-links">
 							<li>
-								<a href="#"
-									data-analytics-title="watch the film"
-									aria-label="Watch the film for AirPods (3rd generation)."
-									id="film-airpods-3rd-generation" class="icon-wrapper cta typography-hero-link"
-									data-focus-expression='{"expression": "css(--hero-cta-scroll, a0)", "anchors": [".section-hero"], "tabindex": "0"}'
-									data-films-modal-link role="button"
-									aria-label="Watch the film for AirPods (3rd generation)."
-									data-analytics-id="film-airpods-3rd-generation"><span class="icon-copy">Watch the
-										film</span><span class="icon icon-after icon-playcircle"></span></a>
+								<a href="#"><span class="icon-copy">Watch the
+										film</span><span></span></a>
 							</li>
+
 							<li>
-								<a href="#" data-analytics-title="watch the event"
-									aria-label="Watch the film for the October 2021 event."
-									class="icon-wrapper cta typography-hero-link"
-									data-focus-expression='{"expression": "css(--hero-cta-scroll, a0)", "anchors": [".section-hero"], "tabindex": "0"}'><span
-										class="icon-copy">Watch the event</span><span
-										class="icon icon-after more"></span></a>
+								<a href="#"><span class="icon-copy">Watch the event</span></span></a>
 							</li>
 						</ul>
 					</div>
@@ -396,76 +377,51 @@
 			</div>
 		</section>
 		<section class="section section-spatial-audio" data-anim-scroll-group="Spatial"
-			data-component-list="SpatialAudio SpatialCopy ThreeJSController"
+			data-component-list="SpatialAudio SpatialCopy ThreeJSController" data-aos="zoom-out-up"
+			data-aos-duration="4000" data-aos-anchor-placement="top-center"
 			data-analytics-section-engagement="name:spatial audio">
 			<div class="sticky">
 				<div class="overflow-container">
-					<div class="section-content">
-						<div class="copy-wrapper ff-perspective">
-							<span class="typography-intro-headline headline-part-1 ff-perspective"
-								data-focus-expression='{"expression": "css(--headline-one-scroll, a0)", "anchors": [".section-spatial-audio"]}'
-								data-anim-keyframe='{"start":"a0t", "end": "a0b - 100vh", "cssClass":"will-change", "toggle":true, "anchors": [".section-spatial-audio"]}'>It’s
-								magic, <br class="small" />remastered.</span>
+					<div class="section-content" data-aos="ease-in-out-quad" data-aos-duration="75300">
+						<div class="copy-wrapper ff-perspecive">
+
 							<div class="typography-intro-headline spatial-copy ff-perspective">
-								<span class="headline-part-2 ff-perspective"
-									data-focus-expression='{"expression": "css(--headline-two-scroll, a0)", "anchors": [".section-spatial-audio"]}'
-									data-anim-keyframe='{"start":"a0t", "end": "a0b - 100vh", "cssClass":"will-change", "toggle":true, "anchors": [".section-spatial-audio"]}'>With
+								<span class="headline-part-2 ff-perspective">With
 									spatial audio <br class="small" />that places sound <br class="small" />all
 									around you, <br class="small" /></span>
-								<span class="headline-part-3 ff-perspective"
-									data-focus-expression='{"expression": "css(--headline-three-scroll, a0)", "anchors": [".section-spatial-audio"]}'
-									data-anim-keyframe='{"start":"a0t", "end": "a0b - 100vh", "cssClass":"will-change", "toggle":true, "anchors": [".section-spatial-audio"]}'>Adaptive
+								<span class="headline-part-3 ff-perspective">Adaptive
 									EQ <br class="small" />that tunes music <br class="small" />to your ears,</span>
 							</div>
 						</div>
 					</div>
-					<canvas id="sound-waves"
-						data-anim-keyframe='{"start":"css(--start-case-flow)","cssClass":"hide", "toggle":true, "anchors": [".section-spatial-audio"]}'></canvas>
-					<canvas id="canvas-spatial-flow"
-						data-anim-keyframe='{"start":"css(--start-case-flow)","cssClass":"hide", "toggle":true, "anchors": [".section-spatial-audio"]}'
-						data-component-list="Sequence"
-						data-sequence-basepath="/105/media/us/airpods-3rd-generation/2021/3c0b27aa-a5fe-4365-a9ae-83c28d10fa21/anim/spatial-audio/"
-						data-sequence-load-kf='{"start": "a0t - 100vh", "end": "a0b", "anchors": [".section-spatial-audio"]}'
-						data-sequence-progress-kf='{"start": "css(--start-spatial-flow, a0)", "end": "css(--start-case-flow, a0)", "anchors": [".section-spatial-audio"]}'></canvas>
-					<canvas id="canvas-case-flow"
-						data-anim-keyframe='{"start":"css(--start-case-flow)", "cssClass":"show", "toggle":true, "anchors": [".section-spatial-audio"]}'
-						data-anim-keyframe-1='{"start":"css(--start-case-flow)", "end":"css(--end-case-flow)", "y": ["css(--flow-transform-y-start)", "css(--case-transform-y-start)"], "anchors": [".section-spatial-audio"]}'
-						data-component-list="Sequence"
-						data-sequence-basepath="/105/media/us/airpods-3rd-generation/2021/3c0b27aa-a5fe-4365-a9ae-83c28d10fa21/anim/battery/"
-						data-sequence-load-kf='{"start": "a0t + 100vh", "end": "a0b + 100vh", "anchors": [".section-spatial-audio"]}'
-						data-sequence-progress-kf='{"start": "css(--start-case-flow, a0)", "end": "css(--end-case-flow, a0)", "anchors": [".section-spatial-audio"]}'
-						data-sequence-endframe="battery-case-endframe"></canvas>
-					<img id="battery-case-endframe" class="battery-case-endframe" alt=""
-						data-anim-keyframe='{"start":"css(--end-case-flow)", "cssClass":"show", "toggle":true, "anchors": [".section-spatial-audio"]}'
-						data-anim-keyframe-1='{"start":"css(--start-case-flow)", "end":"css(--end-case-flow)", "y": ["css(--flow-transform-y-start)", "css(--case-transform-y-start)"], "anchors": [".section-spatial-audio"]}'
-						data-anim-keyframe-2='{"start":"css(--end-case-flow)", "end":"css(--end-case-translate-y)", "y": ["css(--case-transform-y-start)", "css(--case-transform-y-end)"], "anchors": [".section-spatial-audio"]}'
-						data-anim-keyframe-3='{"start":"css(--end-case-flow)", "end":"css(--end-case-scaling)", "scale": ["1", "6"], "anchors": [".section-spatial-audio"]}'>
-					<div class="green-light"
-						data-anim-keyframe-1='{"start":"css(--end-case-flow)", "cssClass":"fadein", "toggle":true, "anchors": [".section-spatial-audio"]}'
-						data-anim-keyframe-2='{"start":"css(--end-case-flow)", "end":"css(--end-case-scaling)", "scale": ["1", "6"], "anchors": [".section-spatial-audio"]}'
-						data-anim-keyframe-3='{"start":"css(--end-case-flow)", "end":"css(--end-case-flow) + 10vh", "opacity": ["0", "1"], "anchors": [".section-spatial-audio"]}'>
+
+					<div class="green-light">
+
 					</div>
 				</div>
 			</div>
 			<div class="picture-wrapper">
 				<!-- <picture id="overview-spatial-audio-static-fallback-1" class="overview-spatial-audio-static-fallback" 
-				data-lazy>-->
-				<source data-empty srcset="data:image/gif;base64,R0lGODlhAQABAHAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-					media="(min-width:0px)" />
-				<img src="./images/spatial_audio_static_fallback__b5yhoitrbtjm_medium_2x.jpg" onload="__lp(event)" alt>
+				data-lazy> -->
+
+				<div data-aos="zoom-out" data-aos-duration="4000" data-aos-anchor-placement="top-center">
+					<img src="./images/spatial_audio_static_fallback__b5yhoitrbtjm_medium_2x.jpg" alt>
+				</div>
 				<!-- </picture> -->
 
 			</div>
 		</section>
 		<section class="section section-battery" data-anim-scroll-group="Battery"
-			data-component-list="Battery ThreeJSController" data-analytics-section-engagement="name:battery">
+			data-component-list="Battery ThreeJSController" data-aos="zoom-out-up" data-aos-duration="4000"
+			data-aos-anchor-placement="top-center">
 			<!-- <picture id="overview-magsafe-static-fallback-1" class="overview-magsafe-static-fallback" data-lazy> -->
-			<source data-empty srcset="data:image/gif;base64,R0lGODlhAQABAHAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-				media="(min-width:0px)" />
-			<img src="./images/magsafe_static_fallback__e3xg19q2lc66_medium_2x.jpg" onload="__lp(event)" alt>
+
+			<img src="./images/magsafe_static_fallback__e3xg19q2lc66_medium_2x.jpg" data-aos="zoom-out"
+				data-aos-duration="4000" data-aos-anchor-placement="top-center" data-aos-easing="ease-in-out" alt>
 			<!-- </picture> -->
 
-			<div class='section-content sticky'>
+			<div class='section-content sticky' data-aos="zoom-out" data-aos-duration="4000"
+				data-aos-anchor-placement="top-center">
 				<div class="overflow-container">
 					<canvas class="bolt-tunnel"></canvas>
 					<div class="headline-container ff-perspective">
@@ -477,34 +433,23 @@
 				</div>
 			</div>
 		</section>
-		<section class="section section-sweat background-alt" data-component-list='Sweat'
-			data-analytics-section-engagement="name:sweat">
-			<!-- <picture id="overview-water-resistant-static-fallback-1" class="overview-water-resistant-static-fallback" 
-				data-lazy> -->
-			<source data-empty srcset="data:image/gif;base64,R0lGODlhAQABAHAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-				media="(min-width:0px)" />
-			<img src="./images/water_resistant_static_fallback__capq15qf2476_medium_2x.jpg" onload="__lp(event)" alt>
+		<section class="section section-sweat background-alt" data-component-list='Sweat' data-aos="zoom-out-up"
+			data-aos-duration="4000" data-aos-anchor-placement="top-center" ">
+			<!-- <picture style=" position: absolute; display: block;"> -->
+
+			<img src="./images/water_resistant_static_fallback__capq15qf2476_medium_2x.jpg" data-aos="zoom-out"
+				data-aos-duration="4000" data-aos-anchor-placement="top-center" alt>
 			<!-- </picture> -->
 
 			<div class="sticky">
-				<canvas class="sweaty-boi" data-component-list="Sequence"
-					data-sequence-basepath="/105/media/us/airpods-3rd-generation/2021/3c0b27aa-a5fe-4365-a9ae-83c28d10fa21/anim/runner/"
-					data-sequence-progress-kf='{ "start": "a0t + 5vh", "end": "a0b - 45vh", "anchors": [".section-sweat"] }'>
-				</canvas>
-				<div class="canvas-window-container">
-					<div class="canvas-blocker canvas-blocker--left background-alt"></div>
-					<div class="canvas-window"></div>
-					<div class="canvas-blocker canvas-blocker--right background-alt"></div>
-					<div class="canvas-blocker canvas-blocker--bottom background-alt"></div>
-				</div>
-				<div class="section-content ff-perspective">
-					<p class="sweat-headline typography-intro-headline ff-perspective" data-sweat-headline-1
-						data-focus-expression='{"expression": "a0t + 40vh", "anchors": [".section-sweat"]}'>
+
+				<div class="section-content ff-perspective" data-aos="zoom-out-up" data-aos-duration="4000"
+					data-aos-anchor-placement="top-center">
+					<p class="sweat-headline typography-intro-headline ff-perspective" data-sweat-headline-1>
 						It shrugs off sweat<br class="small" /> and sprinkles,
 					</p>
-					<p class="sweat-headline typography-intro-headline ff-perspective" data-sweat-headline-2
-						data-focus-expression='{"expression": "a0b - 130vh", "anchors": [".section-sweat"]}'>
-						and delivers <br class="small" />an <br class="large" /><br class="medium" />experience <br
+					<p class="sweat-headline typography-intro-headline ff-perspective" data-sweat-headline-2>
+						ad delivers <br class="small" />an <br class="large" /><br class="medium" />experience <br
 							class="small" />that’s<br class="large" /><br class="medium" /> simply <br
 							class="small" />magical.
 					</p>
@@ -512,7 +457,8 @@
 			</div>
 		</section>
 		<section class="section section-value-props background-alt" data-anim-scroll-group="BentoSlideUp"
-			data-component-list="BentoSlideUp">
+			data-component-list="BentoSlideUp" data-aos="zoom-out-up" data-aos-duration="4000"
+			data-aos-anchor-placement="top-center">
 			<div class="section-content">
 				<div class="grid props-grid">
 					<div class="grid-item large-span-12 grid-item-spatial-audio">
@@ -520,26 +466,35 @@
 							data-analytics-section-engagement="name:spatial audio tile">
 							<div class="tile-content">
 								<!--tile content goes here-->
-								<h2 class="tile-headline typography-value-props-headline"
-									data-anim-keyframe='{"start":"css(--headline-y-start)", "end":"css(--headline-y-end)", "opacity":[1, "0"], "disabledWhen":["no-enhance-base-xp"], "anchors": [".tile-spatial-audio"]}'
-									data-focus-expression='{"expression": "t - 55vh"}'>Taking sound in totally
+
+								<h2 class="tile-headline typography-value-props-headline" data-aos="zoom-out-up">Taking
+									sound in
+									totally
 									new directions.</h2>
-								<div class="content typography-value-props-copy"
-									data-anim-keyframe='{"start":"css(--copy-y-start)", "end":"css(--copy-y-end)", "y": ["30px", 0], "opacity":[0,"1"], "disabledWhen":["no-enhance-base-xp"], "anchors": [".tile-spatial-audio"]}'
-									data-focus-expression='{"expression": "t - 34vh"}'>
-									<p>Spatial audio with dynamic head tracking places sounds all around you to create a
+
+								<div class="content typography-value-props-copy" data-aos-duration="4000"
+									data-aos-anchor-placement="top-center">
+									<p>Spatial audio
+										with dynamic head
+										tracking places sounds all around you to create a
 										three-dimensional listening experience for music, TV shows, movies, and more —
 										immersing you in sounds from every direction so it feels like you’re in your
-										very own concert hall or theater.<sup class="footnote footnote-number"><a
-												href="#" aria-label="Footnote 1">1</a></sup></p>
+										very own concert hall or theater.</p>
 									<p></p>
 								</div>
 								<!-- <picture id="overview-value-props-spatial-spiral-1" 
 									class="overview-value-props-spatial-spiral" data-lazy>-->
-								<source data-empty
-									srcset="data:image/gif;base64,R0lGODlhAQABAHAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-									media="(min-width:0px)" />
-								<img src="./images/spatial_spiral__kekq9zxjllme_medium_2x.png" onload="__lp(event)" alt>
+
+								<div style="position: absolute; 
+								display: flex;
+								align-items: center;
+								justify-content: center;" data-aos="fade-in" data-aos-duration="10000">
+
+
+
+									<img src="./images/spatial_spiral__kekq9zxjllme_medium_2x.png" style="max-width: 500px;
+										 height: 500px;" alt>
+								</div>
 								<!-- </picture> -->
 
 							</div>
@@ -550,8 +505,7 @@
 							data-analytics-section-engagement="name:adaptive eq tile">
 							<div class="tile-content">
 								<!--tile content goes here-->
-								<div class="copy-wrapper typography-value-props-copy"
-									data-anim-keyframe='{"start":"t - css(--copy-y-start)", "end":"t - css(--copy-y-end)", "y": ["30px", 0], "opacity":[0,"1"], "disabledWhen":["no-enhance-base-xp"]}'>
+								<div class="copy-wrapper typography-value-props-copy">
 									<h2 class="tile-headline typography-value-props-copy">Music on a more personal note.
 									</h2>
 									<p class="tile-copy">Adaptive EQ automatically tunes music to your ears.
@@ -561,7 +515,8 @@
 								</div>
 
 
-								<img src="./images/adaptive_eq__fh6rplqneium_large.jpg" onload="__lp(event)" alt>
+								<img src="./images/adaptive_eq__fh6rplqneium_large.jpg"
+									style="position: absolute; height: 100%; width: 100%;" alt>
 
 							</div>
 						</div>
@@ -591,10 +546,8 @@
 										— so your voice is always heard loud and clear.</p>
 								</div>
 
-								<source data-empty
-									srcset="data:image/gif;base64,R0lGODlhAQABAHAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-									media="(min-width:0px)" />
-								<img src="./images/wind_noise__05jns6l8afme_medium_2x.jpg" onload="__lp(event)" alt>
+
+								<img src="./images/wind_noise__05jns6l8afme_medium_2x.jpg" alt>
 
 
 							</div>
@@ -609,7 +562,7 @@
 								<source data-empty
 									srcset="data:image/gif;base64,R0lGODlhAQABAHAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
 									media="(min-width:0px)" />
-								<img src="./images/icon_facetime__b8kjci6tcgvm_medium_2x.jpg" onload="__lp(event)" alt>
+								<img src="./images/icon_facetime__b8kjci6tcgvm_medium_2x.jpg" alt>
 
 
 								<div class="tile-copy-wrapper typography-value-props-copy">
@@ -630,19 +583,19 @@
 								<div class="copy-wrapper typography-value-props-copy"
 									data-anim-keyframe='{"start":"t - css(--copy-y-start)", "end":"t - css(--copy-y-end)", "y": ["30px", 0], "opacity":[0,"1"], "disabledWhen":["no-enhance-base-xp"]}'>
 									<h2 class="tile-headline typography-value-props-copy">Style from ear to ear.</h2>
-									<p class="tile-copy">With a contoured design and shorter stem, AirPods are designed
+									<p class="tile-copy">with a contoured design and shorter stem, AirPods are designed
 										to direct sound into your ears — in a refined look anyone can appreciate.</p>
 								</div>
 
-								<source data-empty
-									srcset="data:image/gif;base64,R0lGODlhAQABAHAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-									media="(min-width:0px)" />
-								<img src="./images/one_size_fit__bsld2w44szci_small_2x.jpg" onload="__lp(event)" alt>
+								<source data-empty />
+								<img src="./images/one_size_fit__bsld2w44szci_small_2x.jpg" style="position: absolute;"
+									width="100%" alt>
 
 							</div>
 						</div>
 					</div>
-					<div class="grid-item large-span-12 grid-item-force-sensor">
+					<div class="grid-item large-span-12 grid-item-force-sensor" data-aos="fade-up"
+						data-aos-duration="4000" data-aos-anchor-placement="top-center">
 						<div class="tile tile-rounded tile-force-sensor"
 							data-analytics-section-engagement="name:force sensor tile">
 							<div class="tile-content">
@@ -669,23 +622,21 @@
 									</div>
 								</div>
 
-								<source data-empty
-									srcset="data:image/gif;base64,R0lGODlhAQABAHAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-									media="(min-width:0px)" />
-								<img src="./images/force_sensor__e3dxcd9bqy2q_medium_2x.jpg" onload="__lp(event)" alt>
+								<source />
+								<img src="./images/force_sensor__e3dxcd9bqy2q_medium_2x.jpg"
+									style="position: absolute; top: 0; right: 10%;" width="200px" alt>
 
 
 							</div>
 						</div>
 					</div>
-					<div class="grid-item large-span-6 small-span-12 grid-item-sweat">
+					<div class="grid-item large-span-6 small-span-12 grid-item-sweat" data-aos="fade-up"
+						data-aos-duration="4000" data-aos-anchor-placement="top-center">
 						<div class="tile tile-rounded tile-sweat" data-analytics-section-engagement="name:sweat tile">
 							<div class="tile-content">
 								<!--tile content goes here-->
 								<div class="tile-copy-wrapper">
-									<h2 class="tile-headline typography-value-props-headline"
-										data-anim-keyframe='{"start":"t - css(--headline-y-start)", "end":"t - css(--headline-y-end)", "opacity":[1, "0"], "disabledWhen":["no-enhance-base-xp"]}'
-										data-focus-expression='{"expression": "t - 60vh"}'>Sprinkles?<br />No sweat.
+									<h2 class="tile-headline typography-value-props-headline">Sprinkles?<br />No sweat.
 									</h2>
 									<p class="tile-copy typography-value-props-copy"
 										data-anim-keyframe='{"start":"t - css(--copy-y-start)", "end":"t - css(--copy-y-end)", "y": ["30px", 0], "opacity":[0,"1"], "disabledWhen":["no-enhance-base-xp"]}'
@@ -697,46 +648,17 @@
 								<div class="video-container" data-component-list="InlineMedia"
 									aria-label="Animation of water splashing off of AirPods." role="img">
 
-									<source data-empty
-										srcset="data:image/gif;base64,R0lGODlhAQABAHAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-										media="(min-width:0px)" />
-									<img src="./images/shaking_dog_startframe__e01bnm1fs0uq_small_2x.jpg""
-											onload=" __lp(event)" alt>
+									<source />
+									<img src="./images/shaking_dog_startframe__e01bnm1fs0uq_small_2x.jpg"
+										style="position: absolute; bottom: 0; right: 0; left: 0; bottom: 0;"
+										onload=" __lp(event)" alt>
 
-
-
-									<source data-empty
-										srcset="data:image/gif;base64,R0lGODlhAQABAHAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-										media="(min-width:0px)" />
-									<img src="./images/shaking_dog_endframe__de9t4gaq8s4m_small_2x.jpg"
-										onload="__lp(event)" alt>
-
-
-									<source data-empty
-										srcset="data:image/gif;base64,R0lGODlhAQABAHAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-										media="(min-width:0px)" />
-									<img src="./images/sweat_resistant__e1tdlg9gvcsy_small_2x.jpg" onload="__lp(event)"
-										alt>
-
-
-									<video id="sweat-resistant-video" data-inline-media
-										data-inline-media-play-keyframe='{"start": "css(--trigger-video)", "end":"css(--trigger-video-end)", "anchors": [".tile-force-sensor"]}'
-										data-inline-media-reset-keyframe='{"start": "t - 100vh", "end":"b"}'
-										data-inline-media-reset-on-exit="true"
-										data-inline-media-plugins="AnimLoad, AnimPlayReset, ViewportSource, VideoLoop, PlayPauseReset"
-										data-inline-media-loop-count="2"
-										data-inline-media-basepath=/105/media/us/airpods-3rd-generation/2021/3c0b27aa-a5fe-4365-a9ae-83c28d10fa21/anim/shaking-dog/
-										muted preload="none" aria-hidden="true">
-									</video>
-									<div class="inline-media-ui">
-										<button class='play-pause-button'
-											data-inline-media-control='PlayPause'></button>
-									</div>
 								</div>
 							</div>
 						</div>
 					</div>
-					<div class="grid-item large-span-6 small-span-12 grid-item-case">
+					<div class="grid-item large-span-6 small-span-12 grid-item-case" data-aos="fade-up"
+						data-aos-duration="4000" data-aos-anchor-placement="top-center">
 						<div class="tile tile-rounded tile-case" data-analytics-section-engagement="name:case tile">
 							<div class="tile-content">
 								<!--tile content goes here-->
@@ -757,23 +679,21 @@
 									<source data-empty
 										srcset="data:image/gif;base64,R0lGODlhAQABAHAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
 										media="(min-width:0px)" />
-									<img src="./images/battery_startframe__1ruivb5dm4ie_medium_2x.jpg"
-										onload="__lp(event)" alt>
+									<img src="./images/battery_startframe__1ruivb5dm4ie_medium_2x.jpg" alt>
 
 
 
 									<source data-empty
 										srcset="data:image/gif;base64,R0lGODlhAQABAHAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
 										media="(min-width:0px)" />
-									<img src="./images/battery_endframe__ey0uumaspgya_medium_2x.jpg"
-										onload="__lp(event)" alt>
+									<img src="./images/battery_endframe__ey0uumaspgya_medium_2x.jpg" alt>
 
 
 
 									<source data-empty
 										srcset="data:image/gif;base64,R0lGODlhAQABAHAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
 										media="(min-width:0px)" />
-									<img src="./images/magsafe__cp729saty83m_medium_2x.jpg" onload="__lp(event)" alt>
+									<img src="./images/magsafe__cp729saty83m_medium_2x.jpg" alt>
 
 
 									<video id="sweat-resistant-video" data-inline-media
@@ -788,7 +708,8 @@
 							</div>
 						</div>
 					</div>
-					<div class="grid-item large-span-12 grid-item-battery">
+					<div class="grid-item large-span-12 grid-item-battery" data-aos="fade-up" data-aos-duration="4000"
+						data-aos-anchor-placement="top-center">
 						<div class="tile tile-rounded tile-battery"
 							data-analytics-section-engagement="name:battery tile">
 							<div class="tile-content">
@@ -814,7 +735,8 @@
 							</div>
 						</div>
 					</div>
-					<div class="grid-item large-span-12 grid-item-connection">
+					<div class="grid-item large-span-12 grid-item-connection" data-aos="fade-up"
+						data-aos-duration="4000" data-aos-anchor-placement="top-center">
 						<div class="tile tile-rounded tile-connection"
 							data-analytics-section-engagement="name:connection tile">
 							<div class="tile-content">
@@ -825,26 +747,18 @@
 									<p class="tile-copy typography-value-props-copy">Place AirPods near your iPhone or
 										iPad and tap Connect to pair with every device in your iCloud account. If
 										you&#39;re playing music on your Mac, you’ll be able to answer a call on your
-										iPhone — without having to switch devices.<sup
-											class="footnote footnote-number"><a href="#"
-												aria-label="Footnote 7">7</a></sup></p>
+										iPhone — without having to switch devices.</p>
 								</div>
 								<div class="hardware-wrapper" data-anim-scroll-group="CaseLight"
 									data-component-list="CaseLight">
 
-									<source data-empty
-										srcset="data:image/gif;base64,R0lGODlhAQABAHAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-										media="(min-width:0px)" />
-									<img src="./images/instant_connection_hw__ffmwoeteltaq_medium_2x.png"
-										onload="__lp(event)" alt>
+									<source />
+									<img src="./iages/instant_connection_hw__ffmwoeteltaq_medium_2x.png" alt>
 
 
 
-									<source data-empty
-										srcset="data:image/gif;base64,R0lGODlhAQABAHAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-										media="(min-width:0px)" />
-									<img src="./images/instant_connection_screen__f0sstcaa38uy_medium_2x.jpg"
-										onload="__lp(event)" alt>
+									<source>
+									<img src="./images/instant_connection_screen__f0sstcaa38uy_medium_2x.jpg">
 
 
 									<div class="video-container" data-component-list="InlineMedia">
@@ -852,45 +766,28 @@
 											aria-label="Screen shows AirPods instantly connecting to iPhone."
 											role="img">
 
-											<source data-empty
-												srcset="data:image/gif;base64,R0lGODlhAQABAHAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-												media="(min-width:0px)" />
-											<img src="./images/pa /pairing_startframe__uu6ri9ssecyq_large.jpg"
-												onload="__lp(event)" alt>
+
+											<img src="./images/pa /pairing_startframe__uu6ri9ssecyq_large.jpg" alt>
 
 
 
-											<source data-empty
-												srcset="data:image/gif;base64,R0lGODlhAQABAHAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-												media="(min-width:0px)" />
+											<source />
 											<img src="/v/airpods-3rd-generation/b/images/overview/value-props/pairing_endframe__cs2plfhwje4i_large.jpg"
-												onload="__lp(event)" alt>
+												alt>
 											</picture>
 
 										</div>
-										<video id="instant-connection-video" data-inline-media
-											data-inline-media-play-keyframe='{"start": "a0t - 52vh", "end":"a0b", "anchors": [".tile-connection"]}'
-											data-inline-media-plugins="AnimLoad, AnimPlay, ViewportSource, PlayPauseButton"
-											data-inline-media-basepath=/105/media/us/airpods-3rd-generation/2021/3c0b27aa-a5fe-4365-a9ae-83c28d10fa21/anim/pairing/
-											muted preload="none" aria-hidden="true">
-										</video>
-										<div class="inline-media-ui">
-											<button class='play-pause-button' data-inline-media-control='PlayPause'
-												data-aria-playing='Pause animation of AirPods instantly connecting to iPhone.'
-												data-aria-paused='Play animation of AirPods instantly connecting to iPhone.'
-												data-aria-ended='Replay animation of AirPods instantly connecting to iPhone.'
-												data-analytics-click-play="prop3:play instant connection video"
-												data-analytics-title-play="play instant connection video"
-												data-analytics-click-pause="prop3:pause instant connection video"
-												data-analytics-title-pause="pause instant connection video"></button>
-										</div>
+
+
 									</div>
 									<div class="case-light"></div>
 								</div>
+
 							</div>
 						</div>
 					</div>
-					<div class="grid-item large-span-12 grid-item-detection">
+					<div class="grid-item large-span-12 grid-item-detection" data-aos="fade-up" data-aos-duration="4000"
+						data-aos-anchor-placement="top-center">
 						<div class="tile tile-rounded tile-detection"
 							data-analytics-section-engagement="name:detection tile">
 							<div class="tile-content">
@@ -903,16 +800,15 @@
 										and pauses when they’re in your pocket or on a table.</p>
 								</div>
 
-								<source data-empty
-									srcset="data:image/gif;base64,R0lGODlhAQABAHAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-									media="(min-width:0px)" />
-								<img src="./images/sense_detection__th96rfu992q2_small_2x.jpg" onload="__lp(event)" alt>
+								<source />
+								<img src="./images/sense_detection__th96rfu992q2_small_2x.jpg" alt>
 
 
 							</div>
 						</div>
 					</div>
-					<div class="grid-item large-span-6 small-span-12 grid-item-siri">
+					<div class="grid-item large-span-6 small-span-12 grid-item-siri" data-aos="fade-up"
+						data-aos-duration="4000" data-aos-anchor-placement="top-center">
 						<div class="tile tile-rounded tile-siri" data-analytics-section-engagement="name:siri tile">
 							<div class="tile-content">
 								<!--tile content goes here-->
@@ -953,7 +849,8 @@
 							</div>
 						</div>
 					</div>
-					<div class="grid-item large-span-6 small-span-12 grid-item-notifications">
+					<div class="grid-item large-span-6 small-span-12 grid-item-notifications" data-aos="fade-up"
+						data-aos-duration="4000" data-aos-anchor-placement="top-center">
 						<div class="tile tile-rounded tile-notifications"
 							data-analytics-section-engagement="name:notifications tile">
 							<div class="tile-content">
@@ -967,34 +864,27 @@
 								<div class="copy-wrapper typography-value-props-copy">
 									<h3 class="tile-headline typography-value-props-copy">Announce Notifications.</h3>
 									<p class="tile-copy">Siri can read your important messages or alerts as they arrive
-										— and you can even reply to messages with just your voice.<sup
-											class="footnote footnote-number"><a href="#"
-												aria-label="Footnote 8">8</a></sup></p>
+										— and you can even reply to messages with just your voice.</p>
 								</div>
 							</div>
 						</div>
 					</div>
-					<div class="grid-item large-span-12 grid-item-find-my">
+					<div class="grid-item large-span-12 grid-item-find-my" data-aos="fade-up" data-aos-duration="4000"
+						data-aos-anchor-placement="top-center">
 						<div class="tile tile-rounded tile-find-my"
 							data-analytics-section-engagement="name:find my tile">
 							<div class="tile-content">
 								<!--tile content goes here-->
 								<div class="hardware-wrapper">
 
-									<source data-empty
-										srcset="data:image/gif;base64,R0lGODlhAQABAHAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-										media="(min-width:0px)" />
-									<img src="./images/find_my_iphone__crmhfvf7uxiu_medium_2x.jpg" onload="__lp(event)"
-										alt>
+									<source />
+									<img src="./images/find_my_iphone__crmhfvf7uxiu_medium_2x.jpg" alt>
 
 
 									<div class="video-container">
 
-										<source data-empty
-											srcset="data:image/gif;base64,R0lGODlhAQABAHAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-											media="(min-width:0px)" />
-										<img src="./images/find_my_iphone__crmhfvf7uxiu_medium_2x.jpg"
-											onload="__lp(event)" alt>
+										<source />
+										<img src="./images/find_my_iphone__crmhfvf7uxiu_medium_2x.jpg" alt>
 										</picture>
 
 									</div>
@@ -1008,7 +898,8 @@
 							</div>
 						</div>
 					</div>
-					<div class="grid-item large-span-12 grid-item-audio-sharing">
+					<div class="grid-item large-span-12 grid-item-audio-sharing" data-aos="fade-up"
+						data-aos-duration="4000" data-aos-anchor-placement="top-center">
 						<div class="tile tile-rounded tile-audio-sharing"
 							data-analytics-section-engagement="name:audio sharing tile">
 							<div class="tile-content">
@@ -1017,14 +908,13 @@
 									<h3 class="tile-headline typography-value-props-copy">Audio Sharing.</h3>
 									<p class="tile-copy">Easily share a song or show between any two sets of AirPods.
 										Simply bring AirPods near the iPhone, iPad, or Apple TV you’re listening to and
-										connect instantly.<sup class="footnote footnote-number"><a href="#"
-												aria-label="Footnote 9">9</a></sup></p>
+										connect instantly.</p>
 								</div>
 
 								<source data-empty
 									srcset="data:image/gif;base64,R0lGODlhAQABAHAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
 									media="(min-width:0px)" />
-								<img src="./images/audio_sharing__cb4429nvtqnm_medium_2x.jpg" onload="__lp(event)" alt>
+								<img src="./images/audio_sharing__cb4429nvtqnm_medium_2x.jpg" alt>
 
 
 							</div>
@@ -1033,15 +923,15 @@
 				</div>
 			</div>
 		</section>
-		<section class="section section-ar background-alt" data-anim-scroll-group="VR"
-			data-analytics-section-engagement="name:ar">
+		<section class="section section-ar background-alt" data-anim-scroll-group="VR" data-aos="zoom-out-up"
+			data-aos-duration="4000" data-aos-anchor-placement="top-center">
 			<div class="section-content row">
 				<div class="column column-copy large-5 medium-6 small-12">
 
 					<source data-empty
 						srcset="data:image/gif;base64,R0lGODlhAQABAHAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
 						media="(min-width:0px)" />
-					<img src="./images/ar_iphone__dlhrnt1i2egm_medium_2x.jpg" onload="__lp(event)" alt>
+					<img src="./images/ar_iphone__dlhrnt1i2egm_medium_2x.jpg" alt>
 
 
 					<h2 class="section-headline typography-headline large-11 medium-12">
@@ -1050,9 +940,7 @@
 					<p class="section-intro typography-intro quicklook-hide large-8 medium-9 small-12">Open this page
 						using Safari on your iPhone or iPad.</p>
 					<p class="typography-section-intro-reduced quicklook-cta typography-intro quicklook-component">
-						<a rel="ar"
-							href="#"
-							data-analytics-title="see airpods 3rd generation in ar"
+						<a rel="ar" href="#" data-analytics-title="see airpods 3rd generation in ar"
 							data-analytics-click="prop3:see airpods 3rd generation in ar"
 							aria-label="View AirPods (3rd generation) in augmented reality"
 							data-analytics-intrapage-link>
@@ -1068,14 +956,14 @@
 							srcset="data:image/gif;base64,R0lGODlhAQABAHAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
 							media="(min-width:0px)" />
 						<img src="/v/airpods-3rd-generation/b/images/overview/routers/ar_iphone__dlhrnt1i2egm_large.jpg"
-							onload="__lp(event)"
 							alt="Screen shows AirPods (3rd generation) being displayed in augmented reality view on iPhone.">
 					</picture>
 
 				</div>
 			</div>
 		</section>
-		<section class="section section-routers" data-anim-scroll-group="Routers">
+		<section class="section section-routers" data-anim-scroll-group="Routers" data-aos="zoom-out-up"
+			data-aos-duration="4000" data-aos-anchor-placement="top-center">
 			<div class="router router-engraving" data-analytics-section-engagement="name:engraving">
 				<div class="section-content row">
 					<div class="column column-copy large-5 small-12">
@@ -1093,7 +981,7 @@
 						<source data-empty
 							srcset="data:image/gif;base64,R0lGODlhAQABAHAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
 							media="(min-width:0px)" />
-						<img src="./images/router_engraving__gcskpbepqh6q_medium_2x.jpg" onload="__lp(event)" alt>
+						<img src="./images/router_engraving__gcskpbepqh6q_medium_2x.jpg" alt>
 
 
 					</div>
@@ -1107,8 +995,7 @@
 							<source data-empty
 								srcset="data:image/gif;base64,R0lGODlhAQABAHAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
 								media="(min-width:0px)" />
-							<img src="./images/apple_music__f4zjxrkd8suq_medium_2x.jpg" onload="__lp(event)"
-								alt="Apple Music">
+							<img src="./images/apple_music__f4zjxrkd8suq_medium_2x.jpg" alt="Apple Music">
 
 
 							<!-- !<chech it out> -->
@@ -1117,8 +1004,7 @@
 								class="footnote footnote-supglyph"><a href="#"
 									aria-label="Footnote * symbol">*</a></span>
 						</h2>
-						<a href="#"
-							data-analytics-title="learn more about apple music free trial"
+						<a href="#" data-analytics-title="learn more about apple music free trial"
 							aria-label="Learn more about Apple Music" class="icon-wrapper typography-intro cta"
 							data-analytics-exit-link><span class="icon-copy">Learn more</span><span
 								class="icon icon-after more"></span></a>
@@ -1128,19 +1014,17 @@
 							<source data-empty
 								srcset="data:image/gif;base64,R0lGODlhAQABAHAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
 								media="(min-width:0px)" />
-							<img src="./images/apple_music__f4zjxrkd8suq_medium_2x.jpg"
-								onload="__lp(event)" alt>
+							<img src="./images/apple_music__f4zjxrkd8suq_medium_2x.jpg" alt>
 						</picture>
 
 					</div>
 				</div>
 			</div>
 		</section>
-		<section class="section section-compare current-airpods-3rd-gen"
-			data-analytics-section-engagement="name:compare">
+		<section class="section section-compare current-airpods-3rd-gen" data-aos="zoom-out-up" data-aos-duration="4000"
+			data-aos-anchor-placement="top-center">
 			<span style="display: none;">
-				<p><span class="footnote footnote-supglyph"><a href="#"
-							aria-label="Footnote † symbol">†</a></span>
+				<p><span class="footnote footnote-supglyph"><a href="#" aria-label="Footnote † symbol">†</a></span>
 					<sup class="footnote footnote-number"><a href="#" aria-label="Footnote 10">10</a></sup>
 					<sup class="footnote footnote-number"><a href="#" aria-label="Footnote 11">11</a></sup>
 				</p>
@@ -1427,9 +1311,7 @@
 												class="icon icon-after more"></span></a>
 									</li>
 									<li class="compare-quicklook-component typography-compare-copy">
-										<a rel="ar"
-											href="#"
-											class="icon icon-after icon-arkit"
+										<a rel="ar" href="#" class="icon icon-after icon-arkit"
 											data-analytics-title="see airpods pro in ar"
 											data-analytics-click="prop3:see airpods pro in ar"
 											aria-label="View AirPods Pro in augmented reality"
@@ -1702,7 +1584,8 @@
 		<div class="ac-gf-content">
 			<h2 class="ac-gf-label" id="ac-gf-label">Apple Footer</h2>
 
-			<section class="ac-gf-buystrip" data-analytics-section-engagement="name:buy strip">
+			<section class="ac-gf-buystrip" data-analytics-section-engagement="name:buy strip" data-aos="zoom-out-up"
+				data-aos-duration="4000" data-aos-anchor-placement="top-center">
 				<div class="ac-gf-buystrip-info with-4-columns">
 
 					<section class="ac-gf-buystrip-info-column ac-gf-buystrip-info-shipping">
@@ -1711,8 +1594,7 @@
 							<h3 class="ac-gf-buystrip-info-title">Free delivery</h3>
 							<p class="ac-gf-buystrip-info-copy">And free returns. See checkout<br />for delivery dates.
 							</p>
-							<a href="#"
-								class="ac-gf-buystrip-info-cta ac-gf-more ac-gf-block-link"
+							<a href="#" class="ac-gf-buystrip-info-cta ac-gf-more ac-gf-block-link"
 								data-analytics-title="shipping and delivery">Learn more</a>
 						</div>
 					</section>
@@ -1722,8 +1604,7 @@
 							<h3 class="ac-gf-buystrip-info-title">Pay monthly at 0% APR</h3>
 							<p class="ac-gf-buystrip-info-copy">You can pay over time when you choose to check out with
 								Apple Card Monthly Installments.<span class="footnote footnote-supglyph">†</span></p>
-							<a href="#"
-								class="ac-gf-buystrip-info-cta ac-gf-more ac-gf-block-link"
+							<a href="#" class="ac-gf-buystrip-info-cta ac-gf-more ac-gf-block-link"
 								data-analytics-title="apple financing">Learn more</a>
 						</div>
 					</section>
@@ -1734,8 +1615,7 @@
 							<p class="ac-gf-buystrip-info-copy">Have a question? Call a Specialist or chat online.</p>
 							<p class="ac-gf-buystrip-info-caption">Call 1-800-MY-APPLE.</p>
 
-							<a href="#"
-								class="ac-gf-buystrip-info-cta ac-gf-buystrip-info-cta-chat ac-gf-more"
+							<a href="#" class="ac-gf-buystrip-info-cta ac-gf-buystrip-info-cta-chat ac-gf-more"
 								data-analytics-title="get help buying" data-analytics-exit-link>Contact Us</a>
 
 						</div>
@@ -1746,15 +1626,14 @@
 							<h3 class="ac-gf-buystrip-info-title">Make them yours</h3>
 							<p class="ac-gf-buystrip-info-copy">Engrave your AirPods with your initials or favorite
 								emoji — free. Only at Apple.</p>
-							<a href="#"
-								class="ac-gf-buystrip-info-cta ac-gf-more ac-gf-block-link"
+							<a href="#" class="ac-gf-buystrip-info-cta ac-gf-more ac-gf-block-link"
 								data-analytics-title="engraving">Learn more</a>
 						</div>
 					</section>
 				</div>
 			</section>
 
-			 
+
 			<nav class="ac-gf-breadcrumbs" aria-label="Breadcrumbs" role="navigation">
 				<a href="/" class="home ac-gf-breadcrumbs-home">
 					<span class="ac-gf-breadcrumbs-home-icon" aria-hidden="true"></span>
@@ -1763,7 +1642,7 @@
 					<span class="ac-gf-breadcrumbs-home-mask"></span>
 				</a>
 				<div class="ac-gf-breadcrumbs-path">
-					<ol class="ac-gf-breadcrumbs-list"  typeof="BreadcrumbList">
+					<ol class="ac-gf-breadcrumbs-list" typeof="BreadcrumbList">
 						<li class="ac-gf-breadcrumbs-item" property="itemListElement" typeof="ListItem">
 							<a class="ac-gf-breadcrumbs-link" href="/airpods/" property="item" typeof="WebPage"><span
 									property="name">AirPods</span></a>
@@ -1776,30 +1655,30 @@
 					</ol>
 				</div>
 			</nav>
-			 
 
-			<section class="ac-gf-footer">
+
+			<section class="ac-gf-footer" data-aos="zoom-out-up" data-aos-duration="4000"
+				data-aos-anchor-placement="top-center">
 				<div class="ac-gf-footer-shop" x-ms-format-detection="none">
 					More ways to shop: <a href="#" data-analytics-title="find an apple store">Find an Apple
-						Store</a> or <a href="#"
-						data-analytics-title="other retailers or resellers" data-analytics-exit-link>other retailer</a>
+						Store</a> or <a href="#" data-analytics-title="other retailers or resellers"
+						data-analytics-exit-link>other retailer</a>
 					near you. <span class="nowrap">Or call 1-800-MY-APPLE.</span>
 				</div>
 				<div class="ac-gf-footer-locale">
-					<a class="ac-gf-footer-locale-link" href="#"
-						title="Choose your country or region" aria-label="United States. Choose your country or region"
+					<a class="ac-gf-footer-locale-link" href="#" title="Choose your country or region"
+						aria-label="United States. Choose your country or region"
 						data-analytics-title="choose your country">United States</a>
 				</div>
 				<div class="ac-gf-footer-legal">
-				 
+
 					<div class="ac-gf-footer-legal-links">
-						<a class="ac-gf-footer-legal-link" href="#"
-							data-analytics-title="privacy policy">Privacy Policy</a>
-						<a class="ac-gf-footer-legal-link" href="#"
-							data-analytics-title="terms of use">Terms of Use</a>
-						<a class="ac-gf-footer-legal-link" href="#"
-							data-analytics-title="sales and refunds">Sales and Refunds</a>
-						<a class="ac-gf-footer-legal-link" href="#"legal">Legal</a>
+						<a class="ac-gf-footer-legal-link" href="#" data-analytics-title="privacy policy">Privacy
+							Policy</a>
+						<a class="ac-gf-footer-legal-link" href="#" data-analytics-title="terms of use">Terms of Use</a>
+						<a class="ac-gf-footer-legal-link" href="#" data-analytics-title="sales and refunds">Sales and
+							Refunds</a>
+						<a class="ac-gf-footer-legal-link" href="#" legal">Legal</a>
 						<a class="ac-gf-footer-legal-link" href="#" data-analytics-title="site map">Site Map</a>
 					</div>
 				</div>
@@ -1808,5 +1687,12 @@
 	</footer>
 	<link rel="stylesheet" href="./modal.css" />
 </body>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+	AOS.init({
+		duration: 3000,
+		once: false,
+	});
+</script>
 
 </html>

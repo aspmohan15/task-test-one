@@ -90,7 +90,7 @@ header {
 }
 
 
-
+ 
 
 
 
@@ -260,6 +260,8 @@ header {
         opacity: 1;
         visibility: visible;
     }
+
+
 
     .active .nav-link-bag {
         opacity: 0;
